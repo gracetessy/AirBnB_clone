@@ -1,0 +1,23 @@
+/*
+ * === Filters class style ===
+ */
+
+/* Filters style */
+.filters {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 70px;
+  width: 100%;
+}
+
+/*
+ * --- Contain search button float ---
+ */
+
+.filters:before,
+.filters:after {
+  content: "";
+  display: table;
+}
+
